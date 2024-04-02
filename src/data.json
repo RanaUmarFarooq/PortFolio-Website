@@ -1,0 +1,63 @@
+
+{
+  "personalInformation": {
+    "f_name": "Umar",
+    "l_name": "Farooq",
+    "headline": "A passionate front-end developer, dedicated to creating engaging and user-friendly digital experiences with creativity and expertise using cutting-edge technologies.",
+    "About_headline": "A dedicated Front-end Developer based in",
+    "country": "Pakistan",
+    "About_me_p_1": "I am Software Engineering graduate, with a keen eye for detail and a love for crafting beautifull and user-friendly websites . With 2 years of experience in the industry, I have honed my skills in HTML, CSS, Javascript, React JS and React Native.",
+    "About_me_p_2": "I take pride in my ability to translate design concepts into functional and visually appealing websites that not only meet but exceed client expectations. I strive to ensure that every aspect of the user interface is optimized for performance, accessibility, and user experience. ",
+    "About_me_p_3": "Additionally, I am also a content writer, allowing me to create engaging and compelling written content to complement my web development skills.",
+
+    "email": "ranaumerfaroooq@.com",
+    "phone": "+1234567890",
+    "address": "123 Main Street, City, Country",
+    "website": "https://www.example.com",
+    "linkedin": "https://www.linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe"
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "../../assets/html.png"
+    },
+    {
+      "name": "CSS",
+      "image": "../../assets/css.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "../../assets/javascript.png"
+    },
+    {
+      "name": "React.js",
+      "image": "../../assets/react.png"
+    },
+    {
+      "name": "Tailwind",
+      "image": "../../assets/tailwind.png"
+    },
+    {
+      "name": "Firebase",
+      "image": "../../assets/firebase.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "React Portfolio Website",
+      "description": "A portfolio website built using React.js.",
+      "link": "https://github.com/johndoe/react-portfolio"
+    },
+    {
+      "title": "Node.js REST API",
+      "description": "A RESTful API built with Node.js and Express.js.",
+      "link": "https://github.com/johndoe/node-rest-api"
+    }
+  ],
+  "contact": {
+    "twitter": "https://twitter.com/johndoe",
+    "instagram": "https://www.instagram.com/johndoe",
+    "facebook": "https://www.facebook.com/johndoe"
+  }
+}
