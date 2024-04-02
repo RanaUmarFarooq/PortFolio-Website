@@ -46,3 +46,8 @@ button {
   border: none;
   background: transparent;
 }
+/* For webkit browsers (Chrome, Safari) */
+
+/* For Firefox */
+/* scrollbar-width: thin; */
+/* scrollbar-width: auto; */ /* Or 'auto' for default browser style */

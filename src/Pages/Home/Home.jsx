@@ -9,6 +9,7 @@ import javascript from "../../assets/javascript.png";
 import react from "../../assets/react.png";
 import tailwind from "../../assets/tailwind.png";
 import firebase from "../../assets/firebase.png";
+import git from "../../assets/git.png";
 const Home = () => {
   const { skills } = data;
   return (
@@ -75,6 +76,9 @@ const renderIcon = (imagePath) => {
       return <img src={tailwind} alt="tailwind" className={styles.skill} />;
     case "../../assets/firebase.png":
       return <img src={firebase} alt="firebase" className={styles.skill} />;
+    case "../../assets/git.png":
+      return <img src={git} alt="git" className={styles.skill} />;
+
     default:
       return null;
   }

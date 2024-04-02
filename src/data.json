@@ -41,18 +41,18 @@
     {
       "name": "Firebase",
       "image": "../../assets/firebase.png"
+    },
+    {
+      "name": "Git",
+      "image": "../../assets/git.png"
     }
   ],
   "projects": [
     {
-      "title": "React Portfolio Website",
-      "description": "A portfolio website built using React.js.",
-      "link": "https://github.com/johndoe/react-portfolio"
-    },
-    {
-      "title": "Node.js REST API",
-      "description": "A RESTful API built with Node.js and Express.js.",
-      "link": "https://github.com/johndoe/node-rest-api"
+      "title": "Photo Sharing",
+      "description": "This is image sharing app containing the all necasssary thing that needs to be in the application",
+      "Img_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZVkSan1-cD0ZaqwUF024tTYi884pmBL79n0ICDJvjg&s",
+      "Tags" : ["image sharing", "photography", "app", "social media "]
     }
   ],
   "contact": {
