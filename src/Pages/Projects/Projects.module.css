@@ -1,5 +1,6 @@
 .project_section {
-  height: 100vh;
+  width: 100%;
+  padding-bottom: 2rem;
 }
 .main_container {
   padding-top: var(--header-height);
@@ -31,4 +32,11 @@
 }
 .main_heading span {
   color: var(--primary-color);
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.project.reverse {
+  flex-direction: row-reverse; /* Reverse the order of flex items */
 }

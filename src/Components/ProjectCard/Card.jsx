@@ -3,10 +3,14 @@ import styles from "./Card.module.css";
 import project from "../../assets/project.jpg";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Card = ({ project }) => {
-  const { Img_link, title, description, Tags } = project;
-  console.log(Img_link);
+  const { Img_link, title, description, Tags, project_no } = project;
+  console.log(project_no);
   return (
-    <div className={styles.container}>
+    <div
+      className={`${styles.container} ${
+        project_no % 2 == 0 ? styles.reverse : ""
+      } `}
+    >
       <img src={Img_link} alt="project_img" className={styles.project_image} />
       <div className={styles.project_details}>
         <p className={styles.project_title}>{title}</p>

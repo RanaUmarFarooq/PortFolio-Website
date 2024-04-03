@@ -49,8 +49,23 @@
   ],
   "projects": [
     {
+      "project_no": "1",
       "title": "Photo Sharing",
-      "description": "This is image sharing app containing the all necasssary thing that needs to be in the application",
+      "description": "Welcome to our image sharing app - your gateway to a world of visual storytelling. Capture, edit, and share your moments effortlessly while connecting with a vibrant community of creators. With robust privacy measures in place, your images are always safe. Join us today and let your pixels speak volumes.Privacy and security are our top priorities. Rest assured. ",
+      "Img_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZVkSan1-cD0ZaqwUF024tTYi884pmBL79n0ICDJvjg&s",
+      "Tags" : ["image sharing", "photography", "app", "social media "]
+    },
+    {
+      "project_no": "2",
+      "title": "Photo Sharing",
+      "description": "Welcome to our image sharing app - your gateway to a world of visual storytelling. Capture, edit, and share your moments effortlessly while connecting with a vibrant community of creators. With robust privacy measures in place, your images are always safe. Join us today and let your pixels speak volumes.Privacy and security are our top priorities. Rest assured. ",
+      "Img_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZVkSan1-cD0ZaqwUF024tTYi884pmBL79n0ICDJvjg&s",
+      "Tags" : ["image sharing", "photography", "app", "social media "]
+    },
+    {
+      "project_no": "3",
+      "title": "Photo Sharing",
+      "description": "Welcome to our image sharing app - your gateway to a world of visual storytelling. Capture, edit, and share your moments effortlessly while connecting with a vibrant community of creators. With robust privacy measures in place, your images are always safe. Join us today and let your pixels speak volumes.Privacy and security are our top priorities. Rest assured. ",
       "Img_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZVkSan1-cD0ZaqwUF024tTYi884pmBL79n0ICDJvjg&s",
       "Tags" : ["image sharing", "photography", "app", "social media "]
     }

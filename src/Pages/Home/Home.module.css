@@ -18,9 +18,12 @@
 .t_greeting {
   font-size: var(--big-size);
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .emoji {
-  height: 30px;
+  height: 37px;
 }
 .name {
   font-size: var(--XL-size);

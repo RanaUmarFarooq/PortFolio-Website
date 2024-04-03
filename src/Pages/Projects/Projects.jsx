@@ -21,7 +21,12 @@ const Projects = () => {
         </div>
         <div className={styles.projects}>
           {projects.map((project, index) => (
-            <Card key={index} project={project} />
+            <div
+              key={index}
+              className={`project ${index % 2 !== 0 ? "reverse" : ""}`}
+            >
+              <Card project={project} />
+            </div>
           ))}
         </div>
       </div>

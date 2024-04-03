@@ -54,3 +54,6 @@
   font-size: var(--normal-size);
   font-weight: 600;
 }
+.reverse {
+  flex-direction: row-reverse; /* Reverse the order of flex items */
+}
