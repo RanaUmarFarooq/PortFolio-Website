@@ -11,6 +11,13 @@ import tailwind from "../../assets/tailwind.png";
 import firebase from "../../assets/firebase.png";
 import git from "../../assets/git.png";
 const Home = () => {
+  const scrollToSectionOnClick = (sectionName) => {
+    const section = document.getElementById(sectionName);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const { skills } = data;
   return (
     <div className={styles.container} id="home">
@@ -32,10 +39,16 @@ const Home = () => {
           {/* Action Buttons */}
 
           <div className={styles.buttons_container}>
-            <button className={`${styles.btn} ${styles.btn_work}`}>
+            <button
+              className={`${styles.btn} ${styles.btn_work}`}
+              onClick={() => scrollToSectionOnClick("projects")}
+            >
               My Work
             </button>
-            <button className={`${styles.btn} ${styles.btn_hire}`}>
+            <button
+              className={`${styles.btn} ${styles.btn_hire}`}
+              onClick={() => scrollToSectionOnClick("contact")}
+            >
               Hire Me
             </button>
           </div>

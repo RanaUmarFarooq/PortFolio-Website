@@ -4,7 +4,6 @@ import project from "../../assets/project.jpg";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Card = ({ project }) => {
   const { Img_link, title, description, Tags, project_no } = project;
-  console.log(project_no);
   return (
     <div
       className={`${styles.container} ${
